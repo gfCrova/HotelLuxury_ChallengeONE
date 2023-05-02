@@ -1,4 +1,4 @@
-package DAO;
+package com.hotel.DAOS;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,8 +9,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import Entities.Huesped;
-import Entities.Reservas;
+import com.hotel.Entities.Reservas;
 
 public class ReservasDAO {
 	
