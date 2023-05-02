@@ -1,4 +1,4 @@
-package Factory;
+package com.hotel.Factory;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -27,6 +27,5 @@ private final DataSource dataSource;
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
-
     }
 }
