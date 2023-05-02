@@ -1,6 +1,8 @@
+package com.hotel;
+
 import java.awt.EventQueue;
 
-import views.MenuPrincipal;
+import com.hotel.Views.MenuPrincipal;
 
 public class RunApp {
 
