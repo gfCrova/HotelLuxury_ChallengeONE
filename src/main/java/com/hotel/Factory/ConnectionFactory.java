@@ -3,6 +3,8 @@ package com.hotel.Factory;
 import java.sql.Connection;
 import java.sql.SQLException;
 import javax.sql.DataSource;
+
+import com.hotel.Services.configService;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 public class ConnectionFactory {
@@ -11,11 +13,14 @@ private final DataSource dataSource;
 	
 	// Inicializando Pool de Conexiones
     public ConnectionFactory() {
-    	
+
+		configService load = new configService();
+		load.obtenerCofiguracion();
+
     	var pooledDataSource = new ComboPooledDataSource();
-    	pooledDataSource.setJdbcUrl("jdbc:mysql://localhost:3306/hotel_alura?useTimeZone=true&serverTimeZone=UTC");
-    	pooledDataSource.setUser("userJava");
-    	pooledDataSource.setPassword("Java_Proyect");
+    	pooledDataSource.setJdbcUrl(load.getUrl());
+    	pooledDataSource.setUser(load.getUsername());
+    	pooledDataSource.setPassword(load.getPassword());
     	
     	this.dataSource = pooledDataSource;
 	}
