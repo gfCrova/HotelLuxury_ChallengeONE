@@ -1,15 +1,21 @@
-<h1 align="center"> Challenge ONE | Java | Back-end | Hotel Alura </h1>
-
-<p align="center" >
-     <img width="300" heigth="300" src="https://user-images.githubusercontent.com/91544872/189419040-c093db78-c970-4960-8aca-ffcc11f7ffaf.png">
-</p>
+<h1 align="center" > Hotel Luxury <img align="right" width="150" heigth="150" src="https://user-images.githubusercontent.com/103906625/235822716-1a325ce2-eebc-4815-94c7-e4acf221fea4.png"></h1>
+<br>
+<h2 align="center" > Challenge ONE | Java | Back-end </h2>
 
 ---
 
-#### 🔹 Marca este proyecto con una ⭐
-#### 🔹 Sigue las orientaciones que tenemos en este repositorio. 📚
+# ⚠ Importante ⚠
+
+#### 🔹 Use Java versión 8 o superior para compatibilidad.
+#### 🔹 La interfaz contiene dos métodos importantes:
+ - setResizable(false): determina el tamaño de la ventana, y a través del parámetro false, la pantalla no se puede maximizar;
+ - setLocationRelativeTo(null): determina la ubicación de la ventana, y a través del parámetro null la mantiene centrada en la pantalla.
+
+
 #### 🔹 ¡Visita la página del desafío haciendo clic aquí! [Link do Challenge](https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura) 📃
 </br>
+
+---
 
 ## 🖥️ Tecnologías Utilizadas:
 
@@ -18,9 +24,16 @@
 - Biblioteca JCalendar
 - MySql
 - c3p0
+
 - Plugin Scale </br>
 
 ---
+
+# Proyecto 📂
+
+<img align="center" src="https://user-images.githubusercontent.com/103906625/235824152-b2c1e931-7898-4c8f-be21-44a8c2a7287f.jpeg">
+
+
 
 🧡 <strong>Oracle</strong></br>
 <a href="https://www.linkedin.com/company/oracle/" target="_blank">
