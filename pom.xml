@@ -59,6 +59,13 @@
             <version>0.2.20</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.scala-lang.modules</groupId>
+            <artifactId>scala-swing_3</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
