@@ -4,6 +4,8 @@ import java.awt.EventQueue;
 
 import com.hotel.Views.MenuPrincipal;
 
+import javax.swing.*;
+
 public class RunApp {
 
 	/**
