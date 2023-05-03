@@ -1,6 +1,18 @@
 <h1 align="center" > Hotel Luxury <img align="right" width="150" heigth="150" src="https://user-images.githubusercontent.com/103906625/235822716-1a325ce2-eebc-4815-94c7-e4acf221fea4.png"></h1>
+<p align="center" > Challenge ONE | Java | Back-end <p>
 <br>
-<h2 align="center" > Challenge ONE | Java | Back-end </h2>
+
+## 🖥️ Tecnologías Utilizadas:
+
+```Java``` - ```Intellij``` - ```Biblioteca JCalendar``` - ```MySql``` - ```c3p0``` - ```Plugin Scale```
+
+</br>
+
+---
+
+# Proyecto 📂
+
+<img align="center" src="https://user-images.githubusercontent.com/103906625/235824152-b2c1e931-7898-4c8f-be21-44a8c2a7287f.jpeg">
 
 ---
 
@@ -16,24 +28,6 @@
 </br>
 
 ---
-
-## 🖥️ Tecnologías Utilizadas:
-
-- Java
-- Intellij
-- Biblioteca JCalendar
-- MySql
-- c3p0
-
-- Plugin Scale </br>
-
----
-
-# Proyecto 📂
-
-<img align="center" src="https://user-images.githubusercontent.com/103906625/235824152-b2c1e931-7898-4c8f-be21-44a8c2a7287f.jpeg">
-
-
 
 🧡 <strong>Oracle</strong></br>
 <a href="https://www.linkedin.com/company/oracle/" target="_blank">
