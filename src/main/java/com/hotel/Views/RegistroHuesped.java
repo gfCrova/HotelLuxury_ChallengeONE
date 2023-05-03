@@ -67,7 +67,7 @@ public class RegistroHuesped extends JFrame {
 		
 		huespedController = new HuespedController();
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(RegistroHuesped.class.getResource("src/main/resources/imagenes/Ha-100px.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("src/main/resources/imagenes/luxury-100px.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 634);
 		contentPane = new JPanel();
@@ -149,7 +149,7 @@ public class RegistroHuesped extends JFrame {
 		
 		txtFechaN = new JDateChooser();
 		txtFechaN.setBounds(550, 278, 289, 36);
-		txtFechaN.getCalendarButton().setIcon(new ImageIcon(RegistroHuesped.class.getResource("src/main/resources/imagenes/calendario.png")));
+		txtFechaN.getCalendarButton().setIcon(new ImageIcon("src/main/resources/imagenes/calendario.png"));
 		txtFechaN.getCalendarButton().setBackground(SystemColor.BLACK);
 		txtFechaN.setDateFormatString("yyyy-MM-dd");
 		contentPane.add(txtFechaN);
@@ -269,6 +269,9 @@ public class RegistroHuesped extends JFrame {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				agregarHuesped();
+				Exito exito = new Exito();
+				exito.setVisible(true);
+				dispose();
 			}
 		});
 		btnguardar.setLayout(null);
@@ -292,20 +295,20 @@ public class RegistroHuesped extends JFrame {
 		JLabel imagenFondo = new JLabel("");
 		imagenFondo.setBounds(0, 120, 479, 502);
 		panel.add(imagenFondo);
-		imagenFondo.setIcon(new ImageIcon(RegistroHuesped.class.getResource("src/main/resources/imagenes/registrarse.png")));
+		imagenFondo.setIcon(new ImageIcon("src/main/resources/imagenes/registrarse.png"));
 	
 		// Logo header
 	    JLabel logoHeader = new JLabel("Hotel Luxury - Challenge Alura");
 	    logoHeader.setForeground(SystemColor.WHITE);
 		logoHeader.setBounds(50, 0, 250, 35);
 		logoHeader.setHorizontalAlignment(SwingConstants.CENTER);
-		logoHeader.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/stars.png")));
+		logoHeader.setIcon(new ImageIcon("src/main/resources/imagenes/stars.png"));
 		header.add(logoHeader);
 		
 		JLabel imagenFondo2 = new JLabel("");
 		imagenFondo2.setBounds(154, -90, 404, 407);
 		panel.add(imagenFondo2);
-		imagenFondo2.setIcon(new ImageIcon(RegistroHuesped.class.getResource("src/main/resources/imagenes/logo-luxury.png")));
+		imagenFondo2.setIcon(new ImageIcon("src/main/resources/imagenes/logo-luxury.png"));
 		
 		
 		JPanel btnexit = new JPanel();
@@ -369,7 +372,7 @@ public class RegistroHuesped extends JFrame {
         assert nacionalidad != null;
         this.huespedController.guardar(usuario);
 
-        JOptionPane.showMessageDialog(this, "Registrado con éxito!");
+        //JOptionPane.showMessageDialog(this, "Registrado con éxito!");
 
         this.limpiarFormulario();
     }

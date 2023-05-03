@@ -65,7 +65,7 @@ public class ReservasView extends JFrame {
 		
 		reservasController = new ReservasController();
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(ReservasView.class.getResource("src/main/resources/imagenes/aH-40px.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("src/main/resources/imagenes/luxury-40px.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 560);
 		setResizable(false);
@@ -140,7 +140,7 @@ public class ReservasView extends JFrame {
 		imagenFondo.setBounds(0, -93, 800, 809);
 		panel_1.add(imagenFondo);
 		imagenFondo.setBackground(Color.WHITE);
-		imagenFondo.setIcon(new ImageIcon(ReservasView.class.getResource("src/main/resources/imagenes/proceso-reserva-hotel.jpg")));
+		imagenFondo.setIcon(new ImageIcon("src/main/resources/imagenes/proceso-reserva-hotel.jpg"));
 		
 		JLabel lblValor = new JLabel("VALOR DE LA RESERVA");
 		lblValor.setForeground(new Color(229,183,59));
@@ -211,7 +211,7 @@ public class ReservasView extends JFrame {
 	    logoHeader.setForeground(SystemColor.WHITE);
 		logoHeader.setBounds(50, 0, 250, 35);
 		logoHeader.setHorizontalAlignment(SwingConstants.CENTER);
-		logoHeader.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/stars.png")));
+		logoHeader.setIcon(new ImageIcon("src/main/resources/imagenes/stars.png"));
 		header.add(logoHeader);
 		
 		JPanel btnAtras = new JPanel();
@@ -255,7 +255,7 @@ public class ReservasView extends JFrame {
 		//Campos que guardaremos en la base de datos
 		txtFechaEntrada = new JDateChooser();
 		txtFechaEntrada.getCalendarButton().setBackground(new Color(0,127,102));
-		txtFechaEntrada.getCalendarButton().setIcon(new ImageIcon(ReservasView.class.getResource("src/main/resources/imagenes/reservado.png")));
+		txtFechaEntrada.getCalendarButton().setIcon(new ImageIcon("src/main/resources/imagenes/reservado.png"));
 		txtFechaEntrada.getCalendarButton().setFont(new Font("Roboto", Font.PLAIN, 12));
 		txtFechaEntrada.setBounds(68, 161, 289, 35);
 		txtFechaEntrada.getCalendarButton().setBounds(268, 0, 21, 33);
@@ -267,7 +267,7 @@ public class ReservasView extends JFrame {
 
 		txtFechaSalida = new JDateChooser();
 		txtFechaSalida.getCalendarButton().setBackground(new Color(255,0,0));
-		txtFechaSalida.getCalendarButton().setIcon(new ImageIcon(ReservasView.class.getResource("src/main/resources/imagenes/reservado.png")));
+		txtFechaSalida.getCalendarButton().setIcon(new ImageIcon("src/main/resources/imagenes/reservado.png"));
 		txtFechaSalida.getCalendarButton().setFont(new Font("Roboto", Font.PLAIN, 11));
 		txtFechaSalida.setBounds(68, 246, 289, 35);
 		txtFechaSalida.getCalendarButton().setBounds(267, 1, 21, 31);

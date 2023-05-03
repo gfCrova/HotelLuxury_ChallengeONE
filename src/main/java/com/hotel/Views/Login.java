@@ -76,7 +76,7 @@ public class Login extends JFrame {
 		JLabel imgHotel = new JLabel("");
 		imgHotel.setBounds(0, 12, 304, 543);
 		panel_1.add(imgHotel);
-		imgHotel.setIcon(new ImageIcon(Login.class.getResource("src/main/resources/imagenes/reception-hotel.jpg")));
+		imgHotel.setIcon(new ImageIcon("src/main/resources/imagenes/reception-hotel.jpg"));
 		
 		JPanel btnexit = new JPanel();
 		btnexit.setBounds(251, 0, 53, 36);
@@ -212,7 +212,7 @@ public class Login extends JFrame {
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setIcon(new ImageIcon(Login.class.getResource("src/main/resources/imagenes/luxury-100px.png")));
+		lblNewLabel_1.setIcon(new ImageIcon("src/main/resources/imagenes/luxury-100px.png"));
 		lblNewLabel_1.setBounds(175, 40, 120, 120);
 		panel.add(lblNewLabel_1);
 		
@@ -258,7 +258,7 @@ public class Login extends JFrame {
 		logoHeader.setForeground(SystemColor.WHITE);
 		logoHeader.setBounds(0, 0, 250, 35);
 		logoHeader.setHorizontalAlignment(SwingConstants.CENTER);
-		logoHeader.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/stars.png")));
+		logoHeader.setIcon(new ImageIcon("src/main/resources/imagenes/stars.png"));
 		header.add(logoHeader);
 	}
 	

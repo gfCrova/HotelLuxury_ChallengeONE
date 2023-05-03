@@ -40,7 +40,7 @@ public class Exito extends JDialog {
 	 * Create the dialog.
 	 */
 	public Exito() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Exito.class.getResource("src/main/resources/imagenes/luxury-40px.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("src/main/resources/imagenes/luxury-40px.png"));
 		setBounds(100, 100, 394, 226);
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setBackground(SystemColor.BLACK);
@@ -50,7 +50,7 @@ public class Exito extends JDialog {
 		contentPanel.setLayout(null);
 		{
 			JLabel lblNewLabel = new JLabel("");
-			lblNewLabel.setIcon(new ImageIcon(Exito.class.getResource("src/main/resources/imagenes/luxury-100px.png")));
+			lblNewLabel.setIcon(new ImageIcon("src/main/resources/imagenes/luxury-100px.png"));
 			lblNewLabel.setBounds(130, 11, 100, 100);
 			contentPanel.add(lblNewLabel);
 		}

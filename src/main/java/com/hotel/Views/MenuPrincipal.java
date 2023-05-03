@@ -26,7 +26,7 @@ public class MenuPrincipal extends JFrame {
 	 * Create the frame.
 	 */
 	public MenuPrincipal() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuPrincipal.class.getResource("src/main/resources/imagenes/aH-40px.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("src/main/resources/imagenes/luxury-40px.png"));
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		setBounds(100, 100, 910, 537);
 		contentPane = new JPanel();
@@ -36,7 +36,6 @@ public class MenuPrincipal extends JFrame {
 		setResizable(false);
 		setLocationRelativeTo(null);
 		setUndecorated(true);
-
 		
 		Panel panel = new Panel();
 		panel.setBackground(new Color(19,16,15)); // new Color(119,136,153)
@@ -46,7 +45,7 @@ public class MenuPrincipal extends JFrame {
 		
 		JLabel imagenFondo = new JLabel("");
 		imagenFondo.setBounds(-55, 13, 732, 501);
-		imagenFondo.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/hotel-luxury.jpg")));
+		imagenFondo.setIcon(new ImageIcon("src\\main\\resources\\imagenes\\hotel-luxury.jpg"));
 		panel.add(imagenFondo);
 		
 		JPanel panel_1 = new JPanel();
@@ -63,7 +62,7 @@ public class MenuPrincipal extends JFrame {
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel_1.setIcon(new ImageIcon(Login.class.getResource("src/main/resources/imagenes/luxury-40px.png")));
+		lblNewLabel_1.setIcon(new ImageIcon("src\\main\\resources\\imagenes\\luxury-40px.png"));
 		lblNewLabel_1.setBounds(15, 2, 40, 40);
 		panel_1.add(lblNewLabel_1);
 		
@@ -137,7 +136,7 @@ public class MenuPrincipal extends JFrame {
 		imagenLogin.setBounds(0, 0, 100, 100);
 		btnLogin.add(imagenLogin);
 		imagenLogin.setHorizontalAlignment(SwingConstants.CENTER);
-		imagenLogin.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/login-blue.png")));
+		imagenLogin.setIcon(new ImageIcon("src\\main\\resources\\imagenes\\login-blue.png"));
 		
 		JLabel lblTitulo = new JLabel("LOGIN");
 		lblTitulo.setBounds(755, 280, 83, 24);
@@ -151,13 +150,13 @@ public class MenuPrincipal extends JFrame {
 		logoHeader.setForeground(SystemColor.WHITE);
 		logoHeader.setBounds(0, 0, 250, 35);
 		logoHeader.setHorizontalAlignment(SwingConstants.CENTER);
-		logoHeader.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/stars.png")));
+		logoHeader.setIcon(new ImageIcon("src\\main\\resources\\imagenes\\stars.png"));
 		header.add(logoHeader);
 	
 	    JLabel logoPanel = new JLabel();
 	    logoPanel.setBounds(660, 35, 250, 205);
 	    logoPanel.setHorizontalAlignment(SwingConstants.CENTER);
-	    logoPanel.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/logo-luxury.png")));
+	    logoPanel.setIcon(new ImageIcon("src\\main\\resources\\imagenes\\logo-luxury.png"));
 		panel.add(logoPanel);
 	}
 	

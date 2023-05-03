@@ -79,7 +79,7 @@ public class MenuUsuario extends JFrame {
 		JLabel lblNewLabel_2 = new JLabel("");
 		lblNewLabel_2.setBounds(50, 58, 150, 150);
 		panelMenu.add(lblNewLabel_2);
-		lblNewLabel_2.setIcon(new ImageIcon(MenuUsuario.class.getResource("src/main/resources/imagenes/logo-luxury.png")));
+		lblNewLabel_2.setIcon(new ImageIcon("src/main/resources/imagenes/logo-luxury.png"));
 		
 		JPanel btnRegistro = new JPanel();
 		btnRegistro.addMouseListener(new MouseAdapter() {
@@ -105,7 +105,7 @@ public class MenuUsuario extends JFrame {
 		btnRegistro.setLayout(null);
 		
 		labelRegistro = new JLabel("Registro de reservas");
-		labelRegistro.setIcon(new ImageIcon(MenuUsuario.class.getResource("src/main/resources/imagenes/icon-reservas.png")));
+		labelRegistro.setIcon(new ImageIcon("src/main/resources/imagenes/icon-reservas.png"));
 		labelRegistro.setForeground(SystemColor.BLACK);
 		labelRegistro.setBounds(25, 11, 205, 34);
 		labelRegistro.setFont(new Font("Roboto", Font.PLAIN, 18));
@@ -138,7 +138,7 @@ public class MenuUsuario extends JFrame {
 		btnBusqueda.setLayout(null);
 		
 		JLabel lblBusquedaDeReservas = new JLabel("Búsqueda");
-		lblBusquedaDeReservas.setIcon(new ImageIcon(MenuUsuario.class.getResource("src/main/resources/imagenes/icon-buscar.png")));
+		lblBusquedaDeReservas.setIcon(new ImageIcon("src/main/resources/imagenes/icon-buscar.png"));
 		lblBusquedaDeReservas.setBounds(27, 11, 200, 34);
 		lblBusquedaDeReservas.setHorizontalAlignment(SwingConstants.LEFT);
 		lblBusquedaDeReservas.setForeground(Color.black);
@@ -247,13 +247,13 @@ public class MenuUsuario extends JFrame {
 		logoHeader.setForeground(SystemColor.WHITE);
 		logoHeader.setBounds(0, 0, 250, 35);
 		logoHeader.setHorizontalAlignment(SwingConstants.CENTER);
-		logoHeader.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/stars.png")));
+		logoHeader.setIcon(new ImageIcon("src/main/resources/imagenes/stars.png"));
 		header.add(logoHeader);
 		
 		JLabel servicios = new JLabel();
 		servicios.setBounds(740, 425, 150, 150);
 		servicios.setHorizontalAlignment(SwingConstants.CENTER);
-		servicios.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/servicios.png")));
+		servicios.setIcon(new ImageIcon("src/main/resources/imagenes/servicios.png"));
 		contentPane.add(servicios);
 	}
 	

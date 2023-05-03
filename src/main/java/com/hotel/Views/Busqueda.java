@@ -63,7 +63,7 @@ public class Busqueda extends JFrame {
 		reservasController = new ReservasController();
 		huespedController = new HuespedController();
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Busqueda.class.getResource("src/main/resources/imagenes/lupa2.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("src/main/resources/imagenes/lupa2.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 910, 571);
 		contentPane = new JPanel();
@@ -119,7 +119,7 @@ public class Busqueda extends JFrame {
 		modelo.addColumn("Forma de Pago");
 		cargarTablaReservas();
 		JScrollPane scroll_table = new JScrollPane(tbReservas);
-		panel.addTab("Reservas", new ImageIcon(Busqueda.class.getResource("src/main/resources/imagenes/reservado.png")), scroll_table, null);
+		panel.addTab("Reservas", new ImageIcon("src/main/resources/imagenes/reservado.png"), scroll_table, null);
 		scroll_table.setVisible(true);
 		
 		tbHuespedes = new JTable();
@@ -136,11 +136,11 @@ public class Busqueda extends JFrame {
 		modeloHuesped.addColumn("Número de Reserva");
 		cargarTablaHuespedes();
 		JScrollPane scroll_tableHuespedes = new JScrollPane(tbHuespedes);
-		panel.addTab("Huéspedes", new ImageIcon(Busqueda.class.getResource("src/main/resources/imagenes/pessoas.png")), scroll_tableHuespedes, null);
+		panel.addTab("Huéspedes", new ImageIcon("src/main/resources/imagenes/pessoas.png"), scroll_tableHuespedes, null);
 		scroll_tableHuespedes.setVisible(true);
 		
 		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setIcon(new ImageIcon(Busqueda.class.getResource("src/main/resources/imagenes/luxury-100px.png")));
+		lblNewLabel_2.setIcon(new ImageIcon("src/main/resources/imagenes/luxury-100px.png"));
 		lblNewLabel_2.setBounds(56, 51, 104, 107);
 		contentPane.add(lblNewLabel_2);
 		
@@ -346,7 +346,7 @@ public class Busqueda extends JFrame {
 		logoHeader.setForeground(SystemColor.WHITE);
 		logoHeader.setBounds(0, 0, 350, 35);
 		logoHeader.setHorizontalAlignment(SwingConstants.CENTER);
-		logoHeader.setIcon(new ImageIcon(MenuPrincipal.class.getResource("src/main/resources/imagenes/stars.png")));
+		logoHeader.setIcon(new ImageIcon("src/main/resources/imagenes/stars.png"));
 		header.add(logoHeader);
 	}
 	
