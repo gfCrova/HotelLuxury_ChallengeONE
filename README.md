@@ -12,12 +12,6 @@
 - Calcular el valor de la reserva en base a la cantidades de días de la reserva y a una tasa diaria que puede ser asignada por ti y en la moneda local de tu país, por ejemplo si tenemos una reserva de 3 dias y el valor de nuestra diaria son 20$ debemos multiplicar esos 3 dias por el valor de la diaria, lo que serian 60$, todo esto deberá ser hecho automaticamente y mostrado al usuario antes de guardar la reserva;
 - Base de datos para almacenar todos los datos pedidos anteriormente.
 
-<br>
-
-## 🖥️ Tecnologías Utilizadas:
-
-```Java``` - ```Intellij``` - ```Biblioteca JCalendar``` - ```MySql``` - ```c3p0``` - ```Plugin Scale```
-
 </br>
 
 # Proyecto 📂
@@ -48,6 +42,10 @@
 </div>
 ---
 
+## 🖥️ Tecnologías Utilizadas:
+
+```Java``` - ```Intellij``` - ```Biblioteca JCalendar``` - ```MySql``` - ```c3p0``` - ```Plugin Scale```
+
 # ⚠ Importante ⚠
 
 #### 🔹 Use Java versión 8 o superior para compatibilidad.
@@ -57,14 +55,4 @@
 
 
 #### 🔹 ¡Visita la página del desafío haciendo clic aquí! [Link do Challenge](https://www.aluracursos.com/challenges/oracle-one-back-end/hotelalura) 📃
-</br>
 
----
-
-🧡 <strong>Oracle</strong></br>
-<a href="https://www.linkedin.com/company/oracle/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-
-💙 <strong>Alura Latam</strong></br>
-<a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank">
-<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
