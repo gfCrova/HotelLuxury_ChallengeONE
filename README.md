@@ -17,7 +17,7 @@
 - Intellij
 - Biblioteca JCalendar
 - MySql
-- C3P0
+- c3p0
 - Plugin Scale </br>
 
 ---
